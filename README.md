@@ -1,4 +1,4 @@
-# Sopra tesr for Inditex: Spring Boot H2  
+# Sopra test for Inditex: Spring Boot H2  
 
 * Java 17
 * Spring Boot 3.1
