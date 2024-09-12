@@ -32,7 +32,7 @@ public class PriceController {
   }
 
   @GetMapping("/price")
-  public ResponseEntity<PriceResponse>getPrice(@RequestBody PriceRequest priceRequest) {// public ResponseEntity<PriceResponse>getPrice(@RequestBody PriceRequest priceRequest) {
+  public ResponseEntity<PriceResponse>getPrice(@RequestBody PriceRequest priceRequest) {
     try {
       PriceResponse priceResponse = PriceServiceImpl.getPriceByApplicationDate(priceRequest);
       return new ResponseEntity<>(priceResponse, HttpStatus.OK);
